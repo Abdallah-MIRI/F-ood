@@ -1,0 +1,104 @@
+/*
+** Author: Abdallah Mohammed
+** Theme: Badr City
+** Version: 1.0.0
+*/
+
+/*-------------
+Page Home
+-------------*/
+
+/* ---------------------------------- Global ---------- */
+body {
+  text-align: right;
+}
+/* End Global */
+
+
+
+/* ---------------------------------- Header ---------- */
+.header .content-header .badr-nav .hamburger.open .bars-tow {
+  width: 0;
+  left: 0;
+}
+/* End Header */
+
+
+
+/* ---------------------------------- Slides ---------- */
+/* Card Item Big */
+.slides .content-slide .card-item-bg .post-slide .category {
+  right: 15px;
+}
+
+.slides .content-slide .card-item-bg .post-slide .category a {
+  display: inline-block;
+}
+
+.slides .content-slide .card-item-bg .dots {
+  right: 9px;
+}
+
+/* Card Item Small */
+.slides .content-slide .card-item-small .item-cat .cat-name a {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+/* End Slides */
+
+
+
+/* ---------------------------------- Show Posts ---------- */
+.show-posts .card-post .info {
+  margin: 0 .5rem 0 0 !important;
+}
+
+.show-posts .card-post .link-post {
+  right: auto;
+  left: 25px;
+}
+/* End Show Posts */
+
+
+
+/* ---------------------------------- Aside ---------- */
+.aside .cat-aside .rank li a {
+  margin-right: 5px;
+}
+/* End Aside */
+
+
+
+/* ---------------------------------- Posts Category Zone ---------- */
+.posts-cat-zone .title-zone h2 {
+  text-align: right;
+}
+
+.posts-cat-zone .title-zone h2::before,
+.posts-cat-zone .title-zone h2::after {
+  right: 0;
+  left: auto;
+}
+/* End Posts Category Zone */
+
+
+
+/*-------------
+Page Category
+-------------*/
+
+/* ---------------------------------- Mobile Responsive ---------- */
+@media (max-width: 991px) {
+
+  .cat-show-posts .pageniation {
+    margin-bottom: 50px;
+  }
+}
+/* End Mobile Responsive */
+
+
+
+/*-------------
+Page Single
+-------------*/
+

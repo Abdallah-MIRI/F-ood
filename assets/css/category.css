@@ -1,0 +1,238 @@
+/*
+** Author: Abdallah Mohammed
+** Theme: Badr City
+** Version: 1.0.0
+** Page: Category
+*/
+
+
+
+/* ---------------------------------- Global ---------- */
+.category-post {
+  margin-bottom: 0 !important;
+}
+
+.cat-head {
+  min-height: 660px;
+  padding: 5rem 0 2rem;
+}
+/* End Global */
+
+
+
+/* ---------------------------------- Category Name Zone ---------- */
+.category-name-zone h1 {
+  color: #fff;
+}
+/* End Category Name Zone */
+
+
+
+/* ---------------------------------- Category Show Posts ---------- */
+.cat-main-content {
+  margin-top: -350px;
+  padding-bottom: 50px;
+  background-color: #f8f8fb;
+  border-top-right-radius: 115px;
+  border-top-left-radius: 115px;
+  -webkit-box-shadow: 0px -5px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+  box-shadow: 0px -5px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+}
+
+.cat-show-posts .cat-post {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+  box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+}
+
+.cat-show-posts .cat-post .img-post {
+  min-width: 90px;
+  height: 90px;
+  margin: 35px 10px 0 19px;
+  border-radius: 3px;
+  background: url('../../assets/images/home/back-gym1.jpg') center / cover no-repeat;
+}
+
+.cat-show-posts .cat-post .details {
+  color: #151626;
+}
+
+.cat-show-posts .cat-post .details .cat-link-post {
+  min-width: 45px;
+  height: 40px;
+  margin: 0 30px;
+  border-radius: 3px;
+  -webkit-transition: background-color .3s ease;
+  -moz-transition: background-color .3s ease;
+  -ms-transition: background-color .3s ease;
+  -o-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  background-color: #44beff;
+  -webkit-box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.17);
+}
+
+.cat-show-posts .cat-post .details .cat-link-post:hover {
+  background-color: #44beffa3;
+}
+
+.cat-show-posts .cat-post .details .cat-link-post a {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.cat-show-posts .cat-post .details .cat-link-post a svg {
+  width: 18px;
+  height: 18px;
+}
+
+.cat-show-posts .pageniation .page-numbers,
+.cat-show-posts .pageniation .next,
+.cat-show-posts .pageniation .prev {
+  color: #6c757d;
+  display: inline-block;
+  padding: 0px 5px;
+  border-radius: 3px;
+  background-color: #FBFBFB;
+  text-decoration: none;
+  -webkit-transition: color .3s ease;
+  -moz-transition: color .3s ease;
+  -ms-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  transition: color .3s ease;
+}
+
+.cat-show-posts .pageniation .page-numbers:hover {
+  color: #44beff;
+}
+
+.cat-show-posts .pageniation .next,
+.cat-show-posts .pageniation .prev {
+  margin: 0 5px;
+  position: relative;
+}
+
+.cat-show-posts .pageniation .next:hover,
+.cat-show-posts .pageniation .prev:hover {
+  color: #44beff;
+}
+
+.cat-show-posts .pageniation .current {
+  color: #fff;
+  cursor: default;
+  background-color: #44beff;
+  box-shadow: 0 0 2px 0 #00000073;
+}
+
+.cat-show-posts .pageniation .current:hover {
+  color: #fff;
+  background-color: #44beff;
+}
+
+.cat-show-posts .pageniation .dots:hover {
+  color: #6c757d;
+  background-color: transparent;
+}
+/* End Category Show Posts */
+
+
+
+/* ---------------------------------- Mobile Responsive ---------- */
+@media (max-width: 1024px) {
+
+  .cat-main-content {
+    border-top-right-radius: 85px;
+    border-top-left-radius: 85px;
+  }
+
+  .cat-show-posts {
+    padding-top: 70px !important;
+  }
+
+  .cat-show-posts .cat-post {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+
+  .cat-show-posts .cat-post .img-post {
+    min-width: 70px;
+    height: 70px;
+    margin: 21px 10px 0 13px;
+  }
+
+  .cat-show-posts .cat-post .details h3 {
+    font-size: 19px;
+  }
+
+  .cat-show-posts .cat-post .details p {
+    font-size: 13px;
+  }
+
+  .cat-show-posts .cat-post .details .cat-link-post {
+    margin: 0px 21px 0 38px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .cat-show-posts .pageniation {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cat-show-posts .cat-post {
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto 30px;
+  }
+
+  .cat-show-posts .cat-post .details .cat-link-post {
+    margin: 0px 10px 0 15px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .cat-head {
+    min-height: 500px;
+  }
+
+  .cat-main-content {
+    margin-top: -175px;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 75px;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+    background-color: transparent;
+  }
+
+  .cat-show-posts .cat-post {
+    height: 75px;
+    width: 100%;
+    justify-content: initial;
+  }
+
+  .cat-show-posts .cat-post .img-post {
+    min-width: 75px;
+    height: 75px;
+  }
+
+  .cat-show-posts .cat-post .details .cat-link-post {
+    min-width: 25px;
+    height: 25px;
+    margin: 0px 0px 0 18px;
+  }
+
+  .cat-show-posts .cat-post .details .cat-link-post a svg {
+    width: 13px;
+    height: 13px;
+  }
+}
+/* End Mobile Responsive */

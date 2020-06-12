@@ -1,0 +1,24 @@
+/*
+** Author: Abdallah Mohammed
+** Theme: Badr City
+** Version: 1.0.0
+** Page: Single
+*/
+
+
+
+/* ---------------------------------- Global ---------- */
+.page-error {
+  padding: 120px 0 50px;
+}
+/* End Global */
+
+
+
+/* ---------------------------------- Message Error ---------- */
+.message-error {
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+  box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+}
+/* End Message Error */

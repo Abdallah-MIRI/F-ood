@@ -1,0 +1,66 @@
+/*
+** Author: Abdallah Mohammed
+** Theme: Badr City
+** Version: 1.0.0
+** Page: Single
+*/
+
+
+
+/* ---------------------------------- Global ---------- */
+/* End Global */
+
+
+
+/* ---------------------------------- Header ---------- */
+.header {
+  background-color: #44beff;
+}
+/* End Header */
+
+
+
+/* ---------------------------------- Single Post ---------- */
+.single-post {
+  padding: 120px 0 50px;
+}
+
+.single-post .head-single {
+  min-width: 250px;
+  height: 75px;
+  padding: 5px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+  box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.09019607843137255);
+}
+
+.single-post .head-single .img-favorite {
+  width: 90px;
+  height: 90px;
+  border-radius: 3px;
+  margin: 43px 5px 0 10px;
+  background: url('../../assets/images/home/ads-side.jpg') center / cover no-repeat;
+}
+
+.single-post .head-single .title-post h1 {
+  font-size: 25px;
+  color: #495057;
+}
+
+.single-post .content-post .img-post {
+  max-width: 730px;
+  height: 500px;
+  border-radius: 3px;
+  background: url('../../assets/images/home/play.jpg') center / cover no-repeat;
+}
+/* End Single Post */
+
+
+
+/* ---------------------------------- Mobile Responsive ---------- */
+@media (max-width: 425px) {
+
+  .single-post .content-post .img-post {
+    height: 350px;
+  }
+}
